@@ -1,0 +1,120 @@
+# FinNote: atualiza as taxas do Tesouro Direto automaticamente.
+# Roda sozinho de segunda a sábado, às 09h17 e às 18h17 (horário de Brasília).
+name: Atualizar taxas do Tesouro
+
+on:
+  schedule:
+    - cron: "17 12,21 * * 1-6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Baixar a tabela do Tesouro e gerar tesouro.json
+        run: |
+          python3 - <<'PY'
+          # Baixa a tabela oficial de taxas do Tesouro Direto (Tesouro Transparente)
+          # e grava tesouro.json só com os títulos do último dia publicado.
+          import csv, io, json, os, sys, time, urllib.request
+          from datetime import datetime, timezone
+
+          URL = "https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv"
+          TIPOS = {
+              "Tesouro Prefixado": "ltn",
+              "Tesouro Prefixado com Juros Semestrais": "ntnf",
+              "Tesouro IPCA+": "ntnbp",
+              "Tesouro IPCA+ com Juros Semestrais": "ntnb",
+              "Tesouro Renda+ Aposentadoria Extra": "renda",
+              "Tesouro Educa+": "educa",
+              "Tesouro Selic": "selic",
+              "Tesouro IGPM+ com Juros Semestrais": "igpm",
+          }
+
+          def baixar():
+              local = os.environ.get("CSV_LOCAL")
+              if local:
+                  return open(local, "rb").read()
+              for i in range(4):
+                  try:
+                      req = urllib.request.Request(URL, headers={"User-Agent": "finnote-dados (GitHub Actions)"})
+                      with urllib.request.urlopen(req, timeout=180) as r:
+                          return r.read()
+                  except Exception as e:
+                      print(f"Tentativa {i + 1} falhou: {e}")
+                      time.sleep(60 * (i + 1))
+              sys.exit("Não foi possível baixar a tabela do Tesouro. Tentarei de novo no próximo horário.")
+
+          def num(s):
+              try:
+                  return float(s.replace(".", "").replace(",", "."))
+              except ValueError:
+                  return 0.0
+
+          def iso(s):
+              return datetime.strptime(s.strip(), "%d/%m/%Y").date().isoformat()
+
+          raw = baixar()
+          texto = raw.decode("utf-8-sig", errors="replace")
+          linhas = list(csv.DictReader(io.StringIO(texto), delimiter=";"))
+          if not linhas or "Data Base" not in linhas[0]:
+              sys.exit("O formato da tabela do Tesouro mudou. Nada foi alterado.")
+
+          ultima = max(iso(l["Data Base"]) for l in linhas if l.get("Data Base"))
+          titulos = []
+          for l in linhas:
+              if iso(l["Data Base"]) != ultima:
+                  continue
+              tipo = TIPOS.get(l["Tipo Titulo"].strip())
+              if not tipo:
+                  continue
+              compra, venda = num(l["Taxa Compra Manha"]), num(l["Taxa Venda Manha"])
+              titulos.append({
+                  "tipo": tipo,
+                  "nome": l["Tipo Titulo"].strip(),
+                  "venc": iso(l["Data Vencimento"]),
+                  "taxa_compra": compra,
+                  "taxa_venda": venda,
+                  "pu_compra": num(l["PU Compra Manha"]),
+              })
+          titulos.sort(key=lambda t: (t["tipo"], t["venc"]))
+
+          if len(titulos) < 10 or not any(t["tipo"] == "ltn" for t in titulos):
+              sys.exit("A tabela veio incompleta. Nada foi alterado.")
+
+          anterior = None
+          if os.path.exists("tesouro.json"):
+              try:
+                  anterior = json.load(open("tesouro.json", encoding="utf-8")).get("data_base")
+              except Exception:
+                  pass
+          if anterior and anterior > ultima:
+              print("A tabela baixada é mais antiga que a atual. Nada foi alterado.")
+              sys.exit(0)
+
+          json.dump({
+              "fonte": "Tesouro Transparente (Taxas dos Títulos Ofertados pelo Tesouro Direto)",
+              "data_base": ultima,
+              "gerado_em": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+              "titulos": titulos,
+          }, open("tesouro.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          print(f"tesouro.json atualizado: {len(titulos)} títulos, data base {ultima}.")
+          PY
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tesouro.json
+          if git diff --cached --quiet; then
+            echo "Sem novidades hoje."
+          else
+            git commit -m "Taxas do Tesouro atualizadas"
+            git push
+          fi
