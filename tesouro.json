@@ -1,47 +1,47 @@
 {
  "fonte": "Tesouro Transparente (Taxas dos Títulos Ofertados pelo Tesouro Direto)",
- "data_base": "2026-11-16",
- "gerado_em": "2026-11-18T02:57+00:00",
+ "data_base": "2026-11-17",
+ "gerado_em": "2026-11-18T20:39+00:00",
  "titulos": [
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2030-12-15",
-   "taxa_compra": 7.29,
-   "taxa_venda": 7.41,
-   "pu_compra": 3384.49
+   "taxa_compra": 7.36,
+   "taxa_venda": 7.48,
+   "pu_compra": 3381.54
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2031-12-15",
-   "taxa_compra": 7.42,
-   "taxa_venda": 7.54,
-   "pu_compra": 3985.32
+   "taxa_compra": 7.48,
+   "taxa_venda": 7.6,
+   "pu_compra": 3981.52
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2032-12-15",
-   "taxa_compra": 7.6,
-   "taxa_venda": 7.72,
-   "pu_compra": 3690.24
+   "taxa_compra": 7.65,
+   "taxa_venda": 7.77,
+   "pu_compra": 3685.89
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2033-12-15",
-   "taxa_compra": 7.67,
-   "taxa_venda": 7.79,
-   "pu_compra": 3421.23
+   "taxa_compra": 7.7,
+   "taxa_venda": 7.82,
+   "pu_compra": 3418.44
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2034-12-15",
-   "taxa_compra": 7.72,
-   "taxa_venda": 7.84,
-   "pu_compra": 3170.33
+   "taxa_compra": 7.73,
+   "taxa_venda": 7.85,
+   "pu_compra": 3170.08
   },
   {
    "tipo": "educa",
@@ -49,191 +49,191 @@
    "venc": "2035-12-15",
    "taxa_compra": 7.74,
    "taxa_venda": 7.86,
-   "pu_compra": 2940.53
+   "pu_compra": 2941.77
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2036-12-15",
-   "taxa_compra": 7.75,
-   "taxa_venda": 7.87,
-   "pu_compra": 2728.45
+   "taxa_compra": 7.74,
+   "taxa_venda": 7.86,
+   "pu_compra": 2731.49
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2037-12-15",
-   "taxa_compra": 7.74,
-   "taxa_venda": 7.86,
-   "pu_compra": 2535.35
+   "taxa_compra": 7.72,
+   "taxa_venda": 7.84,
+   "pu_compra": 2540.39
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2038-12-15",
-   "taxa_compra": 7.71,
-   "taxa_venda": 7.83,
-   "pu_compra": 2360.9
+   "taxa_compra": 7.69,
+   "taxa_venda": 7.81,
+   "pu_compra": 2366.02
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2039-12-15",
-   "taxa_compra": 7.67,
-   "taxa_venda": 7.79,
-   "pu_compra": 2201.75
+   "taxa_compra": 7.65,
+   "taxa_venda": 7.77,
+   "pu_compra": 2206.93
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2040-12-15",
-   "taxa_compra": 7.61,
-   "taxa_venda": 7.73,
-   "pu_compra": 2058.72
+   "taxa_compra": 7.6,
+   "taxa_venda": 7.72,
+   "pu_compra": 2061.76
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2041-12-15",
-   "taxa_compra": 7.57,
-   "taxa_venda": 7.69,
-   "pu_compra": 1922.61
+   "taxa_compra": 7.56,
+   "taxa_venda": 7.68,
+   "pu_compra": 1925.63
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2042-12-15",
-   "taxa_compra": 7.53,
-   "taxa_venda": 7.65,
-   "pu_compra": 1796.86
+   "taxa_compra": 7.52,
+   "taxa_venda": 7.64,
+   "pu_compra": 1799.84
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2043-12-15",
-   "taxa_compra": 7.51,
-   "taxa_venda": 7.63,
-   "pu_compra": 1675.93
+   "taxa_compra": 7.5,
+   "taxa_venda": 7.62,
+   "pu_compra": 1678.87
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2044-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1561.62
+   "taxa_compra": 7.48,
+   "taxa_venda": 7.6,
+   "pu_compra": 1566.74
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2045-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1453.27
+   "taxa_compra": 7.48,
+   "taxa_venda": 7.6,
+   "pu_compra": 1458.3
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2046-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1352.52
+   "taxa_compra": 7.47,
+   "taxa_venda": 7.59,
+   "pu_compra": 1359.66
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2047-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1258.87
+   "taxa_compra": 7.47,
+   "taxa_venda": 7.59,
+   "pu_compra": 1265.86
   },
   {
    "tipo": "educa",
    "nome": "Tesouro Educa+",
    "venc": "2048-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1171.71
+   "taxa_compra": 7.48,
+   "taxa_venda": 7.6,
+   "pu_compra": 1176.42
   },
   {
    "tipo": "igpm",
    "nome": "Tesouro IGPM+ com Juros Semestrais",
    "venc": "2031-01-01",
-   "taxa_compra": 7.63,
-   "taxa_venda": 7.75,
-   "pu_compra": 8101.21
+   "taxa_compra": 7.64,
+   "taxa_venda": 7.76,
+   "pu_compra": 8103.2
   },
   {
    "tipo": "ltn",
    "nome": "Tesouro Prefixado",
    "venc": "2027-01-01",
-   "taxa_compra": 13.55,
-   "taxa_venda": 13.67,
-   "pu_compra": 984.48
+   "taxa_compra": 13.57,
+   "taxa_venda": 13.69,
+   "pu_compra": 984.96
   },
   {
    "tipo": "ltn",
    "nome": "Tesouro Prefixado",
    "venc": "2028-01-01",
-   "taxa_compra": 14.2,
-   "taxa_venda": 14.32,
-   "pu_compra": 861.92
+   "taxa_compra": 14.43,
+   "taxa_venda": 14.55,
+   "pu_compra": 860.44
   },
   {
    "tipo": "ltn",
    "nome": "Tesouro Prefixado",
    "venc": "2029-01-01",
-   "taxa_compra": 14.75,
-   "taxa_venda": 14.87,
-   "pu_compra": 748.73
+   "taxa_compra": 14.98,
+   "taxa_venda": 15.1,
+   "pu_compra": 746.0
   },
   {
    "tipo": "ltn",
    "nome": "Tesouro Prefixado",
    "venc": "2031-01-01",
-   "taxa_compra": 15.12,
-   "taxa_venda": 15.24,
-   "pu_compra": 562.1
+   "taxa_compra": 15.27,
+   "taxa_venda": 15.39,
+   "pu_compra": 559.43
   },
   {
    "tipo": "ltn",
    "nome": "Tesouro Prefixado",
    "venc": "2032-01-01",
-   "taxa_compra": 15.23,
-   "taxa_venda": 15.35,
-   "pu_compra": 485.9
+   "taxa_compra": 15.35,
+   "taxa_venda": 15.47,
+   "pu_compra": 483.61
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2030-08-15",
-   "taxa_compra": 7.59,
-   "taxa_venda": 7.71,
-   "pu_compra": 4619.7
+   "taxa_compra": 7.67,
+   "taxa_venda": 7.79,
+   "pu_compra": 4610.24
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2032-08-15",
-   "taxa_compra": 7.71,
-   "taxa_venda": 7.83,
-   "pu_compra": 4493.25
+   "taxa_compra": 7.74,
+   "taxa_venda": 7.86,
+   "pu_compra": 4489.13
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2035-05-15",
-   "taxa_compra": 7.74,
-   "taxa_venda": 7.86,
-   "pu_compra": 4295.05
+   "taxa_compra": 7.73,
+   "taxa_venda": 7.85,
+   "pu_compra": 4299.51
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2037-05-15",
-   "taxa_compra": 7.68,
-   "taxa_venda": 7.8,
-   "pu_compra": 4237.07
+   "taxa_compra": 7.67,
+   "taxa_venda": 7.79,
+   "pu_compra": 4241.89
   },
   {
    "tipo": "ntnb",
@@ -241,15 +241,15 @@
    "venc": "2040-08-15",
    "taxa_compra": 7.54,
    "taxa_venda": 7.66,
-   "pu_compra": 4255.16
+   "pu_compra": 4256.92
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2045-05-15",
-   "taxa_compra": 7.54,
-   "taxa_venda": 7.66,
-   "pu_compra": 4086.06
+   "taxa_compra": 7.52,
+   "taxa_venda": 7.64,
+   "pu_compra": 4095.98
   },
   {
    "tipo": "ntnb",
@@ -257,47 +257,47 @@
    "venc": "2050-08-15",
    "taxa_compra": 7.53,
    "taxa_venda": 7.65,
-   "pu_compra": 4081.93
+   "pu_compra": 4083.62
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2055-05-15",
-   "taxa_compra": 7.53,
-   "taxa_venda": 7.65,
-   "pu_compra": 3964.05
+   "taxa_compra": 7.51,
+   "taxa_venda": 7.63,
+   "pu_compra": 3975.08
   },
   {
    "tipo": "ntnb",
    "nome": "Tesouro IPCA+ com Juros Semestrais",
    "venc": "2060-08-15",
-   "taxa_compra": 7.54,
-   "taxa_venda": 7.66,
-   "pu_compra": 3990.45
+   "taxa_compra": 7.51,
+   "taxa_venda": 7.63,
+   "pu_compra": 4006.61
   },
   {
    "tipo": "ntnbp",
    "nome": "Tesouro IPCA+",
    "venc": "2029-05-15",
-   "taxa_compra": 7.44,
-   "taxa_venda": 7.56,
-   "pu_compra": 4000.36
+   "taxa_compra": 7.49,
+   "taxa_venda": 7.61,
+   "pu_compra": 3997.43
   },
   {
    "tipo": "ntnbp",
    "nome": "Tesouro IPCA+",
    "venc": "2032-08-15",
-   "taxa_compra": 7.75,
-   "taxa_venda": 7.87,
-   "pu_compra": 3117.36
+   "taxa_compra": 7.78,
+   "taxa_venda": 7.9,
+   "pu_compra": 3113.73
   },
   {
    "tipo": "ntnbp",
    "nome": "Tesouro IPCA+",
    "venc": "2035-05-15",
-   "taxa_compra": 7.78,
-   "taxa_venda": 7.9,
-   "pu_compra": 2538.17
+   "taxa_compra": 7.76,
+   "taxa_venda": 7.88,
+   "pu_compra": 2543.22
   },
   {
    "tipo": "ntnbp",
@@ -305,15 +305,15 @@
    "venc": "2040-08-15",
    "taxa_compra": 7.49,
    "taxa_venda": 7.61,
-   "pu_compra": 1779.11
+   "pu_compra": 1779.85
   },
   {
    "tipo": "ntnbp",
    "nome": "Tesouro IPCA+",
    "venc": "2045-05-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 1263.88
+   "taxa_compra": 7.47,
+   "taxa_venda": 7.59,
+   "pu_compra": 1270.9
   },
   {
    "tipo": "ntnbp",
@@ -321,119 +321,119 @@
    "venc": "2050-08-15",
    "taxa_compra": 7.49,
    "taxa_venda": 7.61,
-   "pu_compra": 868.48
+   "pu_compra": 868.84
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2027-01-01",
-   "taxa_compra": 13.6,
-   "taxa_venda": 13.72,
-   "pu_compra": 1032.48
+   "taxa_compra": 13.63,
+   "taxa_venda": 13.75,
+   "pu_compra": 1032.97
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2029-01-01",
-   "taxa_compra": 14.66,
-   "taxa_venda": 14.78,
-   "pu_compra": 960.5
+   "taxa_compra": 14.89,
+   "taxa_venda": 15.01,
+   "pu_compra": 957.43
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2031-01-01",
-   "taxa_compra": 15.11,
-   "taxa_venda": 15.23,
-   "pu_compra": 894.38
+   "taxa_compra": 15.26,
+   "taxa_venda": 15.38,
+   "pu_compra": 891.08
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2033-01-01",
-   "taxa_compra": 15.28,
-   "taxa_venda": 15.4,
-   "pu_compra": 843.45
+   "taxa_compra": 15.39,
+   "taxa_venda": 15.51,
+   "pu_compra": 840.44
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2035-01-01",
-   "taxa_compra": 15.31,
-   "taxa_venda": 15.43,
-   "pu_compra": 808.22
+   "taxa_compra": 15.39,
+   "taxa_venda": 15.51,
+   "pu_compra": 805.8
   },
   {
    "tipo": "ntnf",
    "nome": "Tesouro Prefixado com Juros Semestrais",
    "venc": "2037-01-01",
-   "taxa_compra": 15.21,
-   "taxa_venda": 15.33,
-   "pu_compra": 785.88
+   "taxa_compra": 15.29,
+   "taxa_venda": 15.41,
+   "pu_compra": 783.2
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2049-12-15",
-   "taxa_compra": 7.59,
-   "taxa_venda": 7.71,
-   "pu_compra": 2005.97
+   "taxa_compra": 7.58,
+   "taxa_venda": 7.7,
+   "pu_compra": 2008.81
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2054-12-15",
-   "taxa_compra": 7.54,
-   "taxa_venda": 7.66,
-   "pu_compra": 1404.72
+   "taxa_compra": 7.52,
+   "taxa_venda": 7.64,
+   "pu_compra": 1409.41
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2059-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 986.29
+   "taxa_compra": 7.47,
+   "taxa_venda": 7.59,
+   "pu_compra": 992.41
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2064-12-15",
-   "taxa_compra": 7.5,
-   "taxa_venda": 7.62,
-   "pu_compra": 688.62
+   "taxa_compra": 7.47,
+   "taxa_venda": 7.59,
+   "pu_compra": 693.86
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2069-12-15",
-   "taxa_compra": 7.51,
-   "taxa_venda": 7.63,
-   "pu_compra": 479.35
+   "taxa_compra": 7.46,
+   "taxa_venda": 7.58,
+   "pu_compra": 486.43
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2074-12-15",
-   "taxa_compra": 7.52,
-   "taxa_venda": 7.64,
-   "pu_compra": 333.36
+   "taxa_compra": 7.45,
+   "taxa_venda": 7.57,
+   "pu_compra": 341.31
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2079-12-15",
-   "taxa_compra": 7.53,
-   "taxa_venda": 7.65,
-   "pu_compra": 231.6
+   "taxa_compra": 7.45,
+   "taxa_venda": 7.57,
+   "pu_compra": 238.79
   },
   {
    "tipo": "renda",
    "nome": "Tesouro Renda+ Aposentadoria Extra",
    "venc": "2084-12-15",
-   "taxa_compra": 7.53,
-   "taxa_venda": 7.65,
-   "pu_compra": 161.45
+   "taxa_compra": 7.45,
+   "taxa_venda": 7.57,
+   "pu_compra": 167.08
   },
   {
    "tipo": "selic",
@@ -441,7 +441,7 @@
    "venc": "2027-03-01",
    "taxa_compra": 0.03,
    "taxa_venda": 0.04,
-   "pu_compra": 20312.8
+   "pu_compra": 20323.11
   },
   {
    "tipo": "selic",
@@ -449,7 +449,7 @@
    "venc": "2028-03-01",
    "taxa_compra": 0.03,
    "taxa_venda": 0.04,
-   "pu_compra": 20305.89
+   "pu_compra": 20316.12
   },
   {
    "tipo": "selic",
@@ -457,7 +457,7 @@
    "venc": "2029-03-01",
    "taxa_compra": 0.05,
    "taxa_venda": 0.06,
-   "pu_compra": 20289.6
+   "pu_compra": 20300.05
   },
   {
    "tipo": "selic",
@@ -465,7 +465,7 @@
    "venc": "2031-03-01",
    "taxa_compra": 0.11,
    "taxa_venda": 0.12,
-   "pu_compra": 20221.61
+   "pu_compra": 20231.37
   }
  ]
 }
